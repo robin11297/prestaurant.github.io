@@ -1,0 +1,214 @@
+body {
+	
+	background-repeat: no-repeat;
+	width: 100%;
+	
+}
+.navbar navbar-inverse {
+	background-color: #DFE2DB;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("background.jpg");
+
+    /* Set a specific height */
+    min-height: 1000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.font {
+	font-family: 'Julee', cursive;
+	color: #FDF3E7;
+	
+}
+.para {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 25px;
+	color: white;
+}
+.box {
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.form-group {
+	font-size: 15px;
+	color: white;
+}
+.checkbox {
+	font-size: 30px;
+	color: white;
+}
+#table {
+	color: black;
+}
+
+.select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+/**Menu**/
+.menu-body {
+  max-width: 680px;
+  margin: 0 auto;
+  display: block;
+  color: white;
+}
+
+.menu-section {
+  margin-bottom: 80px;
+}
+
+.menu-section-title {
+  font-family: georgia;
+  font-size: 50px;
+  display: block;
+  font-weight:normal;
+  margin: 20px 0; 
+  text-align: Center;
+  color: white;
+}
+
+.menu-item {
+  margin: 35px 0;
+  font-size: 18px;
+}
+
+.menu-item-name{
+  font-family: helvetica;
+  font-weight: bold;
+  border-bottom: 2px dotted rgb(213, 213, 213);
+}
+
+.menu-item-description {
+  font-style: italic;
+  font-size: .9em;
+  line-height: 1.5em;
+}
+
+.menu-item-price{
+  float: right;
+  font-weight: bold;
+  font-family: arial;
+  margin-top: -22px;
+}
+.w3-container {
+	color: white;
+	font-size: 20px;
+}
+.address {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+.container {
+	color: white;
+	margin-bottom: 100px;
+}
+.hours {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 20px;
+}
